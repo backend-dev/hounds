@@ -1,0 +1,426 @@
+html{
+    background-image: linear-gradient(#db6a00, #f8a23f);
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5rem;
+    line-height: 1.5rem;
+    color: #ffffff;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url('../images/svg.png');
+    
+}
+.home{
+    margin: 0px 0px 10px 60px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+header nav{
+    margin-right:10%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+header img{
+    margin-left:10%;
+}
+.navbutton{
+    display: inline-block;
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding: 10px 25px;
+    position: relative;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    padding: 20px 10px;
+}
+.navbutton:hover .dropdown{
+    display: block;
+}
+.navbutton .dropdown .navbutton{
+    display: block;
+}
+.courosaul{
+    margin: 20px auto;
+    display: flex;
+    width: 80%;
+}
+.name1{
+    flex:1;
+    min-height: 300px;
+}
+.name1 p{
+    padding: 10px;
+    text-align: center;
+}
+.name3 p{
+    padding: 10px;
+    text-align: center;
+}
+.name2{
+    flex:1;
+    min-height: 300px;
+}
+.name3{
+    flex:1;
+    min-height: 300px;
+}
+.container{
+    display: flex;
+    min-height:200px;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+    /* border: 1px solid #ccc; */
+}
+.services{
+    display: flex;
+    min-height:200px;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1rem;
+    text-shadow: .1rem .1rem #333;
+}
+.service1{
+    min-height: 300px;
+    flex:1.6;
+    margin: 5px auto;
+    text-align: center;
+    padding: 10px 5px;
+}
+.services h2{
+    color:#ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.service2{
+    min-height: 300px;
+    flex:1.4;
+    margin: 5px auto;
+    text-align: center;
+    padding: 10px 5px;
+    background-image: url('../images/2393306.jpg');
+}
+.hero1{
+    flex:2;
+    border:1px solid #ccc;
+    min-height: 300px;
+}
+.hero1 a{
+    padding: 10px;
+    display: inline-block;
+    margin:10px;
+    background: #f4f4f4;
+    color:#ee7a0d;
+}
+.hero2{
+    flex:1;
+    max-height: 300px;
+    background-size: cover;
+    max-width: 300px;
+}
+.hero2 img{
+    max-width: 300px;
+}
+.container h1{
+    font-size: 1.8rem;
+    padding:20px;
+}
+.container p{
+    font-family: "Exo",serif;
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 30px auto;
+}
+.contents h2{
+    margin: 20px 30px;
+    padding-left: 20px;
+    text-shadow: .1rem .1rem #333;
+}
+.contents p{
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 1rem;
+    text-shadow: .1rem .1rem #333;
+}
+.card1{
+    min-height: 300px;
+    width: 30%;
+    background-image:url('../images/old-boats-on-bay-shore-in-ancient-town-4514118.jpg');
+    background-size: cover;
+}
+.card2{
+    min-height: 300px;
+    width: 30%;
+    background-size: cover;
+    background-image: url('../images/high-angle-view-of-shoes-322207.jpg');
+}
+.card3{
+    min-height: 300px;
+    width: 30%;
+    background-size: cover;
+   background-image:url('../images/crop-man-packing-casual-clothes-into-carton-box-4498138.jpg');
+}
+   .contents2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 80%;
+    margin: 30px auto;
+}
+.arrow1{
+    width: 30%;
+    min-height:300px;
+    border: 1px solid #ccc;
+}
+.arrow2{
+    width: 30%;
+    min-height:300px;
+    border: 1px solid #ccc;
+}
+.arrow3{
+    width: 30%;
+    min-height:300px;
+    border: 1px solid #ccc;
+}
+.contents2 p{
+    margin-top:10px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+@media only screen and (max-width:960px){
+    body{
+        overflow:auto;
+    }
+    header{
+        display: flex;
+        width:90%;
+        margin:0 auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .courosaul{
+        display: block;
+    }
+    nav ul li{
+        font-size: 1rem;
+        padding: 2px;
+        display: inline;
+    }
+    .services{
+        display: block;
+    }
+    nav ul{
+        font-size: 1rem;
+        padding: 2px;
+        display: inline;
+    }
+    header img{
+        width: 90%;
+    }
+    .container{
+        display: block;
+        width: 97%;
+    }
+    .hero1, .hero2{
+        padding: 10px;
+        margin:10px auto;
+    }
+    .contents{
+        display: block;
+        width: 97%;
+    }
+    .card1, .card2, .card3{
+        padding: 10px;
+        margin: 10px auto;
+        width:60%;
+    }
+    .contents2{
+        display: block;
+        width: 97%;
+    }
+    .arrow1,.arrow2, .arrow3{
+        padding: 10px;
+        margin: 10px auto;
+        width:60%;
+        border: none;
+    }
+    .navbutton{
+        margin-top: 10px;
+    }
+    .navbutton{
+        padding: 2px;
+    }
+    .dropdown{
+        padding: 30px 20px;
+        margin-top: -30px;
+        margin-left: 59px;
+    }
+    .dropdown .navbutton{
+        scroll-padding-top: 10px 20px;
+    }
+    .contacts{
+        display: block;
+        width: 90%;
+    }
+    .contact-form{
+        width:97%;
+        margin:0 auto;
+        display: inline-block;
+    }
+    .more{
+        width:97%;
+        margin:0 auto;
+        display: inline-block; 
+    }
+}
+.contacts{
+    display: flex;
+    width:80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+form{
+    border:1px solid #ccc;
+    border-radius: 3px;
+}
+.form-header{
+    border-bottom: 1px solid #ccc;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.form-header h1{
+    display: block;
+    font-weight: bold; 
+}
+.form-header p{
+    display: block;
+    font-style: italic;
+    font-size: 1rem;
+}
+.form-field,.form-footer{
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 30px 20px 30px;
+}
+label{
+    width:150px;
+    font-weight: bold;
+    display: inline-block;
+}
+input[type = 'text'],input[type='email']{
+    width: 70%;
+    text-align: center;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    background: transparent;
+    color: #ffffff;
+}
+textarea{
+    width:60%;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+    background: transparent;
+    color: #ffffff;
+}
+.form-footer p{
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+}
+input[type='submit']{
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 50%;
+    background: #f4f4f4;
+    color:#ee7a0d;
+    border-radius: 3px;
+    border:1px solid #dedede;
+    transition-duration: 1s;
+}
+input[type='submit']:hover{
+    background: #be5c00;
+    color: #ffffff;
+}
+.more{
+    /* border:1px solid #ccc; */
+    width:60%;
+    min-height: 300px;
+    margin: 10px 20px;
+}
+.location_desc{
+    margin: 20px auto;
+    text-align: center;
+}
+.location_desc h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.location_desc p{
+    font-size: 1.1rem;
+}
+.map{
+    width:90%;
+    /* border:1px solid #ccc; */
+    max-height: 400px;
+    margin: 20px 20px;
+}
+.contact-form{
+    margin:10px 20px;
+}
+.footer-container{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    border-top: 1px solid #ccc;
+}
+.footer-container p{
+    font-size: 1rem;
+    text-shadow: .1rem .1rem #333;
+}
+@media only screen and (max-width:760px){
+    .contacts{
+        display: block;
+        width: 90%;
+        margin-right:5%;
+    }
+    .contact-form{
+        width:97%;
+        margin:20px auto;
+        display: inline-block;
+        padding-top: 20px;
+    }
+    .more{
+        width:97%;
+        margin:20 auto;
+        display: inline-block; 
+        padding-top: 20px;
+    }
+}
