@@ -1,5 +1,7 @@
 html{
-    background-image: linear-gradient(#db6a00, #f8a23f);
+    background-image: -webkit-linear-gradient(#db6a00, #f8a23f);
+     background-image: -moz-linear-gradient(#db6a00, #f8a23f);
+     background-image: -o-linear-gradient(#db6a00, #f8a23f);
 }
 body{
     font-family: 'Roboto', sans-serif;
