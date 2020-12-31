@@ -11,7 +11,8 @@ body{
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    background-image: url('../images/svg.png');
+    /*background-image: url('../images/svg.png');*/
+    background: #ccc;
     
 }
 .home{
